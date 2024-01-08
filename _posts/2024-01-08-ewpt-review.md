@@ -2,7 +2,7 @@
 layout: post
 title: eWPT Review
 subtitle: Impresiones y consejos 
-cover-img: /assets/img/ewpt.png
+cover-img: /assets/img/background1.jpg
 thumbnail-img: /assets/img/eWPT2.png
 share-img: /assets/img/ewpt.png
 tags: [reviews, web]
