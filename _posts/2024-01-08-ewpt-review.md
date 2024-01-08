@@ -34,27 +34,36 @@ Finalmente tras 7h20m de las 10 horas que habia de limite lo entregué y al minu
 
 Esta sección creo que sea la más importante de la review. No quiero hacer más spoilers de la cuenta, asi que vamos allá.
 
-- Lee todo el test antes de empezar
+- Lee todo el test antes de empezar:
+
 Y durante el examen, y al final. Las preguntas del test dan MUCHA información, y cuando digo mucha es mucha. En muchas ocasiones donde te atasques, vuelve a leer las preguntas.
 Es un tipo test, la respuesta está entre las cuatro opciones, eso acota mucho lo que estás buscando.
 
-- Respeta tus tiempos y tu cabeza
+- Respeta tus tiempos y tu cabeza:
+
 Se realista sobre cuando necesitas descansos, sobre cuando tienes que ir a comer algo. Escucha a tu cabeza aunque sea dificil en ese momento.
 Levanta el culo de la silla y date una vuelta, todas las veces que lo hice durante el examen fui capaz de salir de un bloqueo mental y terminar X sección.
 
-- Organizate y no tengas prisa
+- Organizate y no tengas prisa:
+
 Antes de comenzar, prepara todas las herramientas que tengas para tomar notas, yo recomiendo utilizar Obsidian por el canvas.
 También te vale hacerte el esquema en un cuaderno de matemáticas que tengas desde la ESO, pero vete cuadrandote el entorno.
 
-- No te vayas por las ramas
+- No te vayas por las ramas:
+
 El examen va muy a tiro fijo en las vulnerabilidades, y si bien hay que encadenar diversas vulnerabilidades en alguna sección, por lo general son cosas muy concretas las que tienes que buscar.
 Tienes un Linux con herramientas limitadas, con las wordlists justas y no tienes internet, el exploit que buscas no ha salido hace 4 dias.
 
-- No hay atajos
+- No hay atajos:
+
 Algo que experimenté en el eJPTv2 es que si pawneabas la máquina, tenías el resto de respuestas relacionadas con ese equipo resueltas. Bastaba con indagar un poquito como root para ver usuarios, credenciales, versiones y lo que quieras. En este no, cada servicio por lo general va totalmente aislado aun estando en la misma ip (van dockerizados).
 
-- No hace falta hacerlo para contestarlo
+- No hace falta hacerlo para contestarlo:
+
 Esto es algo que me hace bastante gracia pero es real, durante el examen habrá situaciones donde estés seguro de que la vulnerabilidad es una en concreto, que tengas el PoC en mano y aun así no seas capaz de explotarla. Vuelve a leer las preguntas, lo más seguro es que no te pida una flag si no indicar como lo explotarias. Esto es enserio.
 
-- No saltes de arbol en arbol
+- No saltes de arbol en arbol:
+
 Intenta centrarte en algo y sigue hasta que lo termines o te atasques por completo, es un entorno bastante grande y tener todos los apartados en la cabeza simultaneamente es un problema
+
+Espero haber aclarado alguna duda, Happy Hacking ;)
