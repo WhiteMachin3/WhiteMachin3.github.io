@@ -55,7 +55,7 @@ Con esto, pude comprobar ambas incognitas:
 - El pedido se realiza a la perfección.
 - Se refleja en el ticket el producto eliminado.
 
-![Ticket](/assets/img/ticket1.png)
+![Ticket](/assets/img/ticket1.PNG)
 
 Tras hablar con los empleados, arreglamos el pedido para pagar la cantidad correcta. Al dia siguiente, contacté con los desarrolladores para reportar esta vulnerabilidad y explicar su reproducción.
 
