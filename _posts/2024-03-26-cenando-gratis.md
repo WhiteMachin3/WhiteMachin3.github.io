@@ -2,7 +2,7 @@
 layout: post
 title: Cenando gratis
 subtitle: Rompiendo pasarelas de pago 
-cover-img: /assets/img/coche1.png
+cover-img: /assets/img/coche1.PNG
 thumbnail-img: /assets/img/pizza.png
 share-img: /assets/img/pizza.png
 tags: [bugbounty, web]
