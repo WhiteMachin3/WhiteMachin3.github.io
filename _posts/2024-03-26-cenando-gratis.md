@@ -29,14 +29,9 @@ function=pedido&pago=tarjeta&telefono=.....
 nombre1=Pizza+Cuatro+Quesos&ref1=H1281&precio1=12.50&unidades1=1
 ~~~
 
-Esta petición simplificada tiene estos cuatro parametros bastante llamativos. La primera prueba es evidente, modificar el valor del precio. Y para sorpresa de todos los presentes, esto no funcionó.
+Esta petición simplificada tiene estos cuatro parametros bastante llamativos. La primera prueba es evidente, modificar el valor del precio. Y para sorpresa de todos los presentes, esto no funcionó. Bastante extrañado, la conclusión es clara: sobran parámetros. La aplicación solo está utilizando el código de referencia para añadir productos, ignorando el nombre y el precio.
 
-Bastante extrañado, la conclusión es clara: sobran parámetros. La aplicación solo está utilizando el código de referencia para añadir productos, ignorando el nombre y el precio.
-
-Antes de darlo por inexpugnable, la bombilla se enciende y recuerdo un fallo que he visto en múltiples procesos de pago que he auditado. Cantidades negativas.
-
-Esto ya me habia funcionado antes, y es algo que los desarrolladores suelen olvidar que puede ocurrir (y ser abusado). Asi que vamos con la prueba de concepto.
-
+Antes de darlo por inexpugnable, la bombilla se enciende y recuerdo un fallo que he visto en múltiples procesos de pago que he auditado. Cantidades negativas.Esto ya me habia funcionado antes, y es algo que los desarrolladores suelen olvidar que puede ocurrir (y ser abusado). Asi que vamos con la prueba de concepto.
 Realizando un pedido con dos productos, uno más barato que otro, interceptamos la petición. 
 
 ~~~
@@ -53,9 +48,7 @@ Modificando la cantidad del segundo producto a ser -1 la respuesta de la aplicac
 
 ## Segundas partes
 
-Varias semanas más tarde, me dispose a comprobar el problema por completo, ya que habia dos cosas que comprobar: si el pedido se habia realizado correctamente y si el producto restado se vería reflejado en el TPV y el ticket.
-
-Asi que, con mis mejores intenciones, realice el mismo pedido que dias atras pero esta vez completándolo. Lo pasé a recoger en caso de que hubiese algún problema.
+Varias semanas más tarde, me dispose a comprobar el problema por completo, ya que habia dos cosas que comprobar: si el pedido se habia realizado correctamente y si el producto restado se vería reflejado en el TPV y el ticket. Asi que, con mis mejores intenciones, realice el mismo pedido que dias atras pero esta vez completándolo. Lo pasé a recoger en caso de que hubiese algún problema.
 
 Con esto, pude comprobar ambas incognitas:
 
@@ -66,4 +59,4 @@ Con esto, pude comprobar ambas incognitas:
 
 Tras hablar con los empleados, arreglamos el pedido para pagar la cantidad correcta. Al dia siguiente, contacté con los desarrolladores para reportar esta vulnerabilidad y explicar su reproducción.
 
-Aunque la cena no saliese más barata, tiene un sabor especial.
+Aunque la cena no saliese más barata, tiene un sabor especial 😁.
