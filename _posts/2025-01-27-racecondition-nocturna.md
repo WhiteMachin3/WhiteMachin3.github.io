@@ -9,7 +9,7 @@ tags: [writeup ,web]
 author: MachinE
 ---
 
-🇪🇸🇪🇸🇪🇸
+ESPAÑOL
 
 Esta es la historia de mi último reporte a Miele, la cual además de graciosa, me ha enseñado bastante.
 
@@ -52,7 +52,7 @@ Miele tarda algunas semanas en parchear este problema, con un trato ejemplar por
 
 -------------------------------
 
-🇬🇧🇬🇧🇬🇧
+ENGLISH
 
 This is the story of my latest report to Miele, which, besides being amusing, has taught me a lot.
 
